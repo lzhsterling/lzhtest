@@ -32,7 +32,7 @@ export default function (props: { posts: Post[] }) {
 
   return (
     <div className="min-h-screen">
-      <PageHead canonicalUrl="https://yuanlin.dev"/>
+      <PageHead canonicalUrl="https://lzh.linzihao.eu.org"/>
       <div
         className="container 2xl:px-32 px-6 lg:px-12 mx-auto flex
        flex-row py-8 lg:pb-24 flex-wrap">
@@ -41,7 +41,7 @@ export default function (props: { posts: Post[] }) {
             <div
               className="font-extrabold text-xl lg:text-3xl mb-4 lg:mb-0
         cursor-pointer flex flex-row lg:flex-col items-baseline">
-              <p className="mr-2">Yuanlin Lin</p>
+              <p className="mr-2">ZiHao Lin</p>
               <p className="text-lg text-[#c9ada7]">Blog</p>
             </div>
           </Link>
